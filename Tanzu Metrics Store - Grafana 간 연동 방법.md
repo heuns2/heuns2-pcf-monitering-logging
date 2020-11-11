@@ -79,8 +79,8 @@ sum(jvm_memory_used_bytes{ source_id="bd2d5784-b9dd-4119-b3f8-e2d4c65b9049", are
 ![prometheus2][prometheus-metrics-store-image-2]
 
 
-[prometheus-metrics-store-image-1]:./images/prometheus-metrics-store-image-1.PNG
-[prometheus-metrics-store-image-2]:./images/prometheus-metrics-store-image-2.PNG
+[prometheus-metrics-store-image-1]:./images/prometheus-metrics-store-image-1.png
+[prometheus-metrics-store-image-2]:./images/prometheus-metrics-store-image-2.png
 
 
 
