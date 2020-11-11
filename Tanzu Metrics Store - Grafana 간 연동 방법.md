@@ -70,4 +70,16 @@ $ uaac client add grafana \
 
 ```
 system_mem_percent{job="metric-store", origin="bosh-system-metrics-forwarder", product="VMware Tanzu Application Service", source_id="bosh-system-metrics-forwarder", unit="Percent"}
+sum(jvm_memory_used_bytes{ source_id="bd2d5784-b9dd-4119-b3f8-e2d4c65b9049", area="heap"})*100/sum(jvm_memory_max_bytes{ source_id="bd2d5784-b9dd-4119-b3f8-e2d4c65b9049", area="heap"})
 ```
+
+
+![prometheus1][prometheus-metrics-store-image-1]
+![prometheus2][prometheus-metrics-store-image-2]
+
+
+[prometheus-metrics-store-image-1]:./images/prometheus-metrics-store-image-1.PNG
+[prometheus-metrics-store-image-2]:./images/prometheus-metrics-store-image-2.PNG
+
+
+
