@@ -1,4 +1,4 @@
-## Pivotal Platform Prometheus Endpoint 사용 (고급)
+## TAS log-cache endpoint(Promsql) 사용 2
 - 이전 Tracker를 기반으로 정리한 내용입니다. 추후 Prometheus - Grafana 연동 시 유용하게 사용 가능해 보입니다. 
 - Tile 또는 Open Source를 통해 Default로 설치 시 자동으로 UI는 그려지겠지만, 여러 Foundation에서의  Pivotal Platform의 모든 VM에 Firehose Release가 설치 됨으로 모든 VM에서의 부하량이 증가 할 수 있습니다.
 - Log Cache Endpoint을 통해 Metrics 접근은 Endpoint 호출 > source id 접근 -> metrics 접근 순 입니다. metrics 접근 간의 mysql로 따지면 where 절을 추가하여 특정 metrics를 추출 합니다.
