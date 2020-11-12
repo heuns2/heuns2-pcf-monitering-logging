@@ -1,5 +1,5 @@
 
-## TAS log-cache endpoint 사용 1
+## TAS log-cache endpoint(Promsql) 사용 1
 
 - PAS Platform의 내부 System endpoint를 사용하여 PAS의 주요 지표를 뽑는 방법에 대해 설명합니다.
 - 우선 PAS Platform의 내부 Endpoint의 확인하는 URL은 api.sys.{DOMAIN}로 확인이 가능합니다.
