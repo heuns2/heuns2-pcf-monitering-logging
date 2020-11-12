@@ -95,7 +95,7 @@ addons:
 - Apply Change가 완료 되면 Dynatrace에 접속하여 올바르게 연동이 되었는지 확인합니다.
 - Dynatrace에서 주로 확인하였던 수치는 아래와 같습니다.
  
-	1) VM의 생사
+	  1) VM의 생사
 	
 ![prometheus1][dynatrace-image-1]
 
