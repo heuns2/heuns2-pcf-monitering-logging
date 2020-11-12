@@ -96,13 +96,32 @@ addons:
 - Dynatrace에서 주로 확인하였던 수치는 아래와 같습니다.
  
 	1) VM의 생사
+	
+![prometheus1][dynatrace-image-1]
 
-	2) Java Container의 JVM Memory
+![prometheus2][dynatrace-image-2]
 
-	3) Request & Response의 수행 시간
+	2) Request & Response의 수행 시간
+	
+![prometheus3][dynatrace-image-3]
+
+	3) Java Container의 JVM Memory
+	
+![prometheus4][dynatrace-image-4]
+
+
 
 
 ## 2. 운영 간 특이 사항
 - TAS 내부의 Dynatrace에서 등록한 API에 주기적으로 ping을 시도하여 신규 버전이 있을 경우 자동으로 다운로드를 받고 적용 시키는 현상이 있었습니다. 하지만 Process를 재기동 하기전에는 신규 버전이 적용되지 않습니다.
-- APM 대상의 Java Application들에게 JVM Memory는 충분하지만 가능성이 있음
+- APM 대상의 Java Application들에게 Memory, CPU, Disk 사용률은 안정적이지만 원인 모를 http health endpoint에서 장애가 발생하는 의심 현상이 있습니다.
 - 신규 Release 된 Oneagent를 적용 하였을 때 기존 System과(Go Lang 등)의 버전 차이로 인하여 장애가 발생 할 수 있음으로 기존에 테스트가 반드시 필요합니다.
+
+
+
+[dynatrace-image-1]:./images/dynatrace-image-1.png
+[dynatrace-image-2]:./images/dynatrace-image-2.png
+[dynatrace-image-3]:./images/dynatrace-image-3.png
+[dynatrace-image-4]:./images/dynatrace-image-4.png
+
+
