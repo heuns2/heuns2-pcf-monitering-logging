@@ -1,6 +1,3 @@
-
-PCF On ELK, Splunk를 통해 Logging을 관리하면 편리하긴 하지만 과도한 리소스 사용과 관리를 해야 할 필요가 있다고 생각하는것 같다.
-
 # TAS Platform과 Rsyslog 연동
 - 사전 준비 사항
 	- rsyslog install
