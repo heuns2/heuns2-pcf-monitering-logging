@@ -78,7 +78,7 @@ index="$index_name" deployment="$Gemfire VM Deployment Name" job="server" name="
 ![splunk-1][splunk-image-1]
 
 
-- 위 Query를 기반하여 다른 Metrics을 통해 생성한 Dashboard
+- 위 Query를 기반하여 다른 Metrics을 통해 생성한 Dashboard (query에서 name만 변경하여 사용 할 수 있습니다.)
 
 ![splunk-2][splunk-image-2]
 
