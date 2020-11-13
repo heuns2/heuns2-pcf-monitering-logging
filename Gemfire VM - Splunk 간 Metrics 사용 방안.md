@@ -1,5 +1,7 @@
 # Gemfire VM - Splunk 간 Metrics 
 - Splunk를 통해 연동 가능 한 주요 Gemfire VM의 Metrics와 임계치에 대해 설명합니다.
+- 모든 Tanzu Application Service Platform의 Metrics의 구성은 동일하며 name(metrics 명칭), value(값), unit(단위)를 바탕으로 ELK, Splunk, Promethues 등에서 Query를 짤 수 있습니다.
+- Splunk의 장점은 사전에 별도의 Filter를 생성 할 필요 없이 동적으로 Query를 실행하여 Dashboard를 손쉽게 만들 수 있습니다.
 
 ## 1. 주요 Gemfire VM Capacity 측정 내용
 
@@ -53,3 +55,47 @@ system_disk_persistent_read_time: ms -> ns
 system_disk_persistent_io_time: ms -> ns
 diskstore.DiskWritesAvgLatency: ms -> ns
 ```
+
+## 5. Splunk Query 결과 Sample
+
+- 2 섹션(Splunk Gemfire VM Metrics)에서 확인 가능한 Metrics에 대해서 몇 가지 Query Sample에 대한 기록입니다, 모든 Metrics은 아래와 비슷한 유형으로 Dashboard를 만들 수 있습니다.
+
+```
+index="$index_name" deployment="$Gemfire VM Deployment Name" job="server" name="system.mem.percentage" | timechart min(value) as min by job_index
+
+- index: 수집 대상의 splunk index 명
+- deployment: $ bosh vms 명령에서의 deployment name
+- job: VM Level의 Job 명
+- name: 추출 대상의 Metrics Name (Splunk Gemfire VM Metrics에서 작성한 모든 Metrics 정보를 치환하면 값이 나타납니다.)
+- timechart: 시간 별로 그래프 생성
+- value: name에서 추출한 Metrics의 Value 값을 표시
+
+```
+
+- 위 Query에 대한 결과
+
+
+![splunk-1][splunk-image-1]
+
+
+- 위 Query를 기반하여 다른 Metrics을 통해 생성한 Dashboard
+
+![splunk-2][splunk-image-2]
+
+![splunk-3][splunk-image-3]
+
+
+[splunk-1]:./images/splunk-image-1.png
+[splunk-2]:./images/splunk-image-2.png
+[splunk-3]:./images/splunk-image-3.png
+
+
+
+
+
+
+
+
+
+
+
