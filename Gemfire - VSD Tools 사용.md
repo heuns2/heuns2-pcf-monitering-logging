@@ -22,7 +22,19 @@ $ create region --name=test --enable-statistics=true
 - VSD를 실행하고 $ vsd라고 명령을 치고 해당 File을 Upload 합니다.
 
 
-### 1.3. DATA 확인 Sample
+### 1.3. DATA 확인 Sample Image
+
+![gfs-1][gfs-image-1]
+
+![gfs-2][gfs-image-2]
+
+![gfs-3][gfs-image-3]
+
+![gfs-3][gfs-image-4]
 
 
+[gfs-1]:./images/gfs-image-1.png
+[gfs-2]:./images/gfs-image-2.png
+[gfs-3]:./images/gfs-image-3.png
+[gfs-4]:./images/gfs-image-4.png
 
