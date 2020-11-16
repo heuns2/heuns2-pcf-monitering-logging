@@ -26,19 +26,19 @@ $ create region --name=test --enable-statistics=true
 
 - Region의 GET Ratio (GET이 많을 경우 Replica Type의 Region으로 생성을 권고)
 
-![gfs-1][gfs-image-1]
+![gfs-1][gfs-1]
 
 - Region의 PUT Ratio (PUT이 많을 경우 Partition Type Region으로 생성을 권고)
 
-![gfs-2][gfs-image-2]
+![gfs-2][gfs-2]
 
 - Cache Server VM의 CMS GC 후 Memory 변화 (GC  이후 Memory 변화율)
 
-![gfs-3][gfs-image-3]
+![gfs-3][gfs-3]
 
 - Region의 LRU Destory 비율 (만료 설정으로 인하여 Destory 되는 Cache DATA를 확인 - Default Heap 75%이상 되면 가장 마지막 Data가 삭제)
 
-![gfs-3][gfs-image-4]
+![gfs-4][gfs-4]
 
 
 [gfs-1]:./images/gfs-image-1.PNG
