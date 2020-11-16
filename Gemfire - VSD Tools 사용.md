@@ -4,7 +4,7 @@
 - Partition, Replica Region 별로의 GET, PUT, REMOVE 에 대한 상세 비율, Java로 실행 되는 Gemfire Server Process의 JVM 뿐만 아닌 Native 영역의 Memory 사용률 뿐만 아닌 Gemfire Client와의 Message Queued, Processing Time을 보여줍니다.
 - 운영 중 주로 확인 하였던 지표
 	- 75%에서 GC가 발생하지만 주로 Full GC를 통해 Memory 해제가 되지 않아 Scale UP을 고려
-	- Region 별 GET, PUT, POST에 대한 비중을 확인하여 Partition, Replica Type 정의를 고려
+	- Region 별 GET, PUT, POST, DELETE 에 대한 비중을 확인하여 Partition, Replica Type 정의를 고려, Region Type에 따라서 read, write 시간에 대한 차이가 있습니다.
 	- Region 별 Eviction Destory Data의 비중을 확인
 	- Partition Region의 경우 Redendent 의 수를 확인
 
