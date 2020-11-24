@@ -12,3 +12,4 @@
   - TAS log-cache endpoint(Promsql) 사용 2.md
   - Tanzu Metrics Store - Grafana 간 연동 방법.md
   - Gemfire - VSD Tools 사용.md
+  - PAS Platform - ELK RPM Package 설치(Centos OS).md
