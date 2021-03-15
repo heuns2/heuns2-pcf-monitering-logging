@@ -9,7 +9,7 @@
 $ git clone https://github.com/heuns2/bosh-zabbix-release.git
 ```
 
-- tree 구조
+- Tree 구조
 	- Jobs: Zabbix 실행 Config 파일과 서비스 실행 스크립트
 	- Packages: Zabbix 실행 소스 코드 파일에 대한 버전 명시 및 소스 코드 Build
 	- Blobs: Packages에서 사용 될 실제 소스 코드 명시
@@ -149,3 +149,31 @@ LogFile=/var/vcap/sys/log/zabbix_agentd/zabbix_agentd.log
 ## 2.1. Zabbix Server Web UI 확인
 
 - Zabbix Server Web UI에 접속하여 아래 정보를 설정 합니다, 이때 host 정보는 위 config에서 등록 된 appMetrics-43af9618b9d8fa50d087.log-store-vms.0 = deployment_name.job_name.index 입니다.
+
+- Zabbix Server에서 Hosts를 생성합니다. 이때 hostname, ip는 runtime config를 통해 설치 된 VM의 IP입니다.
+
+![zabbix-1][zabbix-1]
+
+[zabbix-1]:./images/zabbix-image-1.PNG
+
+
+![zabbix-2][zabbix-2]
+
+[zabbix-2]:./images/zabbix-image-2.PNG
+
+- Zabbix Server와 Zabbix Agent가 서로 통신이 되게 되면 초록색으로 활성화 표시가 나타납니다.
+
+![zabbix-3][zabbix-3]
+
+[zabbix-3]:./images/zabbix-image-3.PNG
+
+
+- 일정 시간이 지나면 모니터링 화면에서 아래와 같은 Metrics 정보가 확인 됩니다.
+
+![zabbix-4][zabbix-4]
+
+[zabbix-4]:./images/zabbix-image-4.PNG
+
+
+
+
