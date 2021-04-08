@@ -13,3 +13,5 @@
   - Tanzu Metrics Store - Grafana 간 연동 방법.md
   - Gemfire - VSD Tools 사용.md
   - PAS Platform - ELK RPM Package 설치(Centos OS).md
+  - Tanzu Platform - Zabbix Agent 연동
+  - Tanzu Health Watch Exporter - 외부 Prometheus 연동
