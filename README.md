@@ -15,3 +15,4 @@
   - PAS Platform - ELK RPM Package 설치(Centos OS).md
   - Tanzu Platform - Zabbix Agent 연동
   - Tanzu Health Watch Exporter - 외부 Prometheus 연동
+  - Tanzu Platform - Node Exporter 연동
