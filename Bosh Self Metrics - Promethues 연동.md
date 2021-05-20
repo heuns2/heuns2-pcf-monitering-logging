@@ -1,4 +1,4 @@
-# Bosh Self Metrics - Promethues 연동 Guide
+# Bosh Self Metrics - Promethues 연동
 
 - 본 문서는 Bosh Metrics과 Health Watch v2.x 또는 Prometheus에 연동하는 방법에 대해서 설명 합니다.
 - Bosh를 통하여 관리되는 Platform VM들은 Runtime Config 방식을 통하여 Agent를 심거나 모든 VM에 서 실행 중인 내부 Scraper 시스템과 자동 연동을 할 수 있지만, Management 영역인 Ops Man과 Bosh는 수동으로 연동을 시켜야 합니다.
