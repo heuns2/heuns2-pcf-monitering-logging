@@ -17,3 +17,5 @@
   - Tanzu Health Watch Exporter - 외부 Prometheus 연동
   - Tanzu Platform - Node Exporter 연동
   - Bosh Self Metrics - Promethues 연동
+  - Bosh - TAS Weave Release 연동
+
