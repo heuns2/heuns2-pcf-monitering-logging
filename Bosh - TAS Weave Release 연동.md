@@ -2,8 +2,10 @@
 - Weave Scope는 Application Map을 자동으로 생성하므로 Container화 된 Micro Service 기반 Application을 직관적으로 이해, 모니터링 및 제어 할 수 있습니다.
 - 본 문서는 Weave Scope App 화면과 Runtime Config를 통해 VM에 scope-probe, scope_garden 설치, Cloud Foundry에서 방출 되는 Metrics을 수집하기 위한 권한 정책 정립에 대한 방법을 설명 합니다.
 - 사전 조건
- - 4040 PORT 방화벽 Open
- - 외부 환경이 되지 않는다면 Release Download 후 Bosh 명령어 장소로 이동
+    - 4040 PORT 방화벽 Open
+    - 외부 환경이 되지 않는다면 Release Download 후 Bosh 명령어 장소로 이동
+- 참고 링크
+    - https://www.weave.works/docs/scope/latest/introducing/ 
 
 ## 1. Bosh Release Upload
  
