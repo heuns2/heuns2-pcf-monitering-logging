@@ -8,7 +8,7 @@
 
 ![grafana-1][grafana-1]
 
-[grafana-1]:./images/grafana-1.PNG
+[grafana-1]:./images/grafana-1.png
 
 ## 1. Status Panel Plugin 설치
 
@@ -50,7 +50,7 @@ System 'system_localhost'           running
 
 ![grafana-2][grafana-2]
 
-[grafana-2]:./images/grafana-2.PNG
+[grafana-2]:./images/grafana-2.png
 
 
 ## 2. Status Panel 설정
@@ -61,14 +61,14 @@ System 'system_localhost'           running
 
 ![grafana-3][grafana-3]
 
-[grafana-3]:./images/grafana-3.PNG
+[grafana-3]:./images/grafana-3.png
 
 
 - Grouping 할 Panel명칭을 명시 하고 Visualization 창에서 Status Panel을 선택합니다.
 
 ![grafana-4][grafana-4]
 
-[grafana-4]:./images/grafana-4.PNG
+[grafana-4]:./images/grafana-4.png
 
 ### 2.2. Metrics 연동
 
@@ -77,7 +77,7 @@ System 'system_localhost'           running
 
 ![grafana-5][grafana-5]
 
-[grafana-5]:./images/grafana-5.PNG
+[grafana-5]:./images/grafana-5.png
 
 
 ### 2.3. Panel 설정 변경
@@ -88,7 +88,7 @@ System 'system_localhost'           running
 
 ![grafana-6][grafana-6]
 
-[grafana-6]:./images/grafana-6.PNG
+[grafana-6]:./images/grafana-6.png
 
 1.  Alias는 Alert 발생 시 표기 되는 명칭이며 이전 5P에서 설정한 Legend 명칭과 같아야합니다.
 2. Handler Type은 Number, String, Date 등 임계치에 대한 Type을 지정 할 수 있습니다.
@@ -105,7 +105,7 @@ System 'system_localhost'           running
 
 ![grafana-7][grafana-7]
 
-[grafana-7]:./images/grafana-7.PNG
+[grafana-7]:./images/grafana-7.png
 
 
 ### 2.5. Panel과 Dashbord  저장 및 확인
@@ -114,7 +114,7 @@ System 'system_localhost'           running
 
 ![grafana-8][grafana-8]
 
-[grafana-8]:./images/grafana-8.PNG
+[grafana-8]:./images/grafana-8.png
 
 ## 3. 최종 확인 및 활용 방안
 
@@ -122,5 +122,5 @@ System 'system_localhost'           running
 
 ![grafana-9][grafana-9]
 
-[grafana-9]:./images/grafana-9.PNG
+[grafana-9]:./images/grafana-9.png
 
