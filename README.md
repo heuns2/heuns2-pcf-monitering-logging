@@ -18,5 +18,7 @@
   - Tanzu Platform - Node Exporter 연동
   - Bosh Self Metrics - Promethues 연동
   - Bosh - TAS Weave Release 연동
-  - Health Watch v2.x Grafana Plugin 사용(Manifest Dashboard)
+  - Health Watch v2.x Grafana Plugin 사용(Main Dashboard)
+
+
 
