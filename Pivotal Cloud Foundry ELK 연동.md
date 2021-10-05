@@ -111,7 +111,7 @@ $ cf install-plugin -r CF-Community "drains"
 $ cf drain -h
 
 # syslog drain 사용자 서비스를 생성한다.
-$ cf cups log-drain -l syslog://<logstash-serve>:<logstash-port>
+$ cf cups log-drain -l syslog://<logstash-server>:<logstash-port>
 
 # 만들어진 서비스를 test application에 bind 한다.
 $ cf bind-service cf-spring log-drain
