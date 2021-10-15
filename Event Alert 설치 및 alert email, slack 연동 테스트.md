@@ -22,7 +22,7 @@ $ cf eva-unsubscribe email-User-1 healthwatch --topics healthwatch.diego.availab
 
 7) 현재 구독 중인 Topics 확인
 $ cf eva-subscriptions
-Getting subscriptions as tasadmin...
+Getting subscriptions as tasadmin...  
 OK
 Target         Publisher     Topics                                      Exclusions
 email-User-1   healthwatch   healthwatch.diego.availablefreechunks       -
