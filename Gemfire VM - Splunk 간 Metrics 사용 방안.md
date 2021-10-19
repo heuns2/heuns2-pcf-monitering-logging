@@ -11,7 +11,7 @@
 3. 모든 Locactor, Server 각 각에 대해 재실행이 빈번하게 일어나는지 확인
 4. Region, Server에 대한 운영이 가능한 상태인지 확인 Gets/Puts/avg latency가 ms 단위
 5. JVM Palus와 Wait Thread는 나타 날 수 있지만 일시적인지 확인
-6. OQL, Query를 직접적으로 사용할 경우 Query에 대한 Metrics을 확인
+6. OQL, Query를 직접적으로 사용할 경우 Query에 대한 Metrics을 확인  
 ```
 
 
