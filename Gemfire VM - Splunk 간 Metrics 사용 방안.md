@@ -86,7 +86,7 @@ index="$index_name" deployment="$Gemfire VM Deployment Name" job="server" name="
 
 
 [splunk-image-1]:./images/splunk-image-1.png
-[splunk-image-2]:./images/splunk-image-2.png
+[splunk-image-2]:./images/splunk-image-2.png   
 [splunk-image-3]:./images/splunk-image-3.png
 
 
