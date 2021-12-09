@@ -10,7 +10,7 @@
     -  Application의 구조 (Start CLI, Cpu, Disk)등을 확인하기 위하여 "/v2/apps?inline-relations-depth=2&order-direction=asc&page=2&results-per-page=50"와 같은 Endpoint가 사용 된다, 이 Query는 Cloud Controller의 부하가 발생 할 수 있으며 Router의 Latency 증가의 원인이 될 염려가 있습니다.  
 
 ## 1. Bosh Release Upload
- 
+   
  - Bosh Director에 Weave Release를 Upload 합니다.
 
 ```
