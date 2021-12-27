@@ -16,7 +16,7 @@
 
 
 ## 2. Splunk Gemfire VM Metrics 
-- Splunk Query 통해 확인이 가능한 주요 Metrics을 설명 합니다.
+- Splunk Query 통해 확인이 가능한 주요 Metrics을 설명 합니다. 
 
 ```
 member.MaxMemory: Memory의 사용 가능한 -Xms 최대 Heap 사용량
