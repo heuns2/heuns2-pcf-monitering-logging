@@ -8,7 +8,7 @@
 
 ### 1.1. Bosh VM ssh 접속
 - Ops Manager UI에 접속하여 [Bosh Director Tile] -> [Credentials] -> [Bbr Ssh Credentials]에서 private key를 복사하여 아래 Command를 통하여 Bosh에 접속 할 수 있는 Key 형태를 생성합니다.
-
+ 
 ```
 # 예시
 $ printf -- "-----BEGIN RSA PRIVATE KEY-----\nMIIEpAIBAAKCAQEAohGHVwEVNAm/\nt9AcDTjrMyKvyejWuxSYEwiLDC2O3VL5UrZLPoHtdLK2qJYExXiNBw==\n-----END RSA PRIVATE KEY-----\n" > bosh.pem
