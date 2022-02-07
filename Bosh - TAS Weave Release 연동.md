@@ -150,7 +150,7 @@ $ curl http://10.0.4.60:4040
 </html>
 ```
 
-## 3. 권한 인증 설정 및 wep app runtime config 적용
+## 3. 권한 인증 설정 및 wep app runtime config 적용  
 
 ### 3.1. uaac 인증 설정
 - weave_scope_app VM이 사용 할 client 인증을 생성합니다.
