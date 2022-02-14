@@ -1,7 +1,7 @@
 # Gemfire - VSD Tools 사용
 - Gemfire는 Apache Geode를 기반으로 만든 Pivotal의 Cache 저장소 시스템입니다.
 - Pivotal Gemfire VMs를 설치하게 되면 내부적으로 Pulse가 설치되고 Cache를 저장하는 Region 생성 중 옵션을 통해 Metrics을 방출 할 수 있으며, 다양한 모니터링 Tool을 통해 Metrics을 확인 할 수 있지만 이것은 부분적이며 더 상세하게 확인을 하기 위해서는 VSD Tool을 사용해야 합니다.
-- Partition, Replica Region 별로의 GET, PUT, REMOVE 에 대한 상세 비율, Java로 실행 되는 Gemfire Server Process의 JVM 뿐만 아닌 Native 영역의 Memory 사용률 뿐만 아닌 Gemfire Client와의 Message Queued, Processing Time을 보여줍니다.
+- Partition, Replica Region 별로의 GET, PUT, REMOVE 에 대한 상세 비율, Java로 실행 되는 Gemfire Server Process의 JVM 뿐만 아닌 Native 영역의 Memory 사용률 뿐만 아닌 Gemfire Client와의 Message Queued, Processing Time을 보여줍니다.  
 - 운영 중 주로 확인 하였던 지표
 	- 75%에서 GC가 발생하지만 주로 Full GC를 통해 Memory 해제가 되지 않아 Scale UP을 고려
 	- Region 별 GET, PUT, POST, DELETE 에 대한 비중을 확인하여 Partition, Replica Type 정의를 고려, Region Type에 따라서 read, write 시간에 대한 차이가 있습니다.
