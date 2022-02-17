@@ -66,7 +66,7 @@ metrics_path: /metrics
 scheme: https
 static_configs:
   - targets:
-    - "{BOSH_IP}:53035"
+    - "{BOSH_IP}:53035"  
 ```
 
 - TLS Config Certificate Authority 정보에 Bosh VM 내부에서가져온 [system_metrics_agent_ca.crt] 값을 입력합니다.
