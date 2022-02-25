@@ -82,7 +82,7 @@ update:
 ```
 $ bosh -d weave-scope deploy manifest.yml
 
-Using environment '10.0.2.11' as client 'ops_manager'
+Using environment '10.0.2.11' as client 'ops_manager'  
 
 Task 2179
 
