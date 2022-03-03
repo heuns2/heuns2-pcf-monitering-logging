@@ -11,7 +11,7 @@
 
 ## 1. Bosh Release Upload
    
- - Bosh Director에 Weave Release를 Upload 합니다.
+ - Bosh Director에 Weave Release를 Upload 합니다.  
 
 ```
 # local에 weave download
