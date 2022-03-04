@@ -65,7 +65,7 @@ instance_groups:
     - gateway
     name: <cloud config의 network name으로 변경 필요>
   persistent_disk_type: '<cloud config의 disk type name으로 변경 필요>'
-  vm_extensions: [<cloud config의 lb 설정 name으로 변경 필요>]
+  vm_extensions: [<cloud config의 lb 설정 name으로 변경 필요>]  
 update:
   canaries: 1
   canary_watch_time: 30000-300000
