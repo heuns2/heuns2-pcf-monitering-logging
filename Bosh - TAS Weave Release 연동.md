@@ -17,7 +17,7 @@
 # local에 weave download
 $ wget https://github.com/heuns2/bosh-weave-scope/releases/download/0.0.17/weave-scope-v0.0.17.tgz
 
-# bosh director에 upload
+# bosh director에 upload  
 $ bosh upload-release ./weave-scope-v0.0.17.tgz
 
 # upload 된 release 확인
