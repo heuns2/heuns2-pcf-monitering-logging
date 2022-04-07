@@ -28,7 +28,7 @@ Target         Publisher     Topics                                      Exclusi
 email-User-1   healthwatch   healthwatch.diego.availablefreechunks       -
 ~              ~             healthwatch.diego.availablefreechunksdisk   -
 slack-User-1   healthwatch   healthwatch.diego.availablefreechunks       -
-~              ~             healthwatch.diego.availablefreechunksdisk   -
+~              ~             healthwatch.diego.availablefreechunksdisk   -  
 
 8) health watch 임계치 확인 & 상세 변경치 Sample
 $ uaac target uaa.sys.leedh.cloud
