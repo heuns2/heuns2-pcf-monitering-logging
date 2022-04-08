@@ -7,7 +7,7 @@
 - 이전 Dojo에서의 Opensource Prometheus 배포와 다르게 해당 기능을 사용하여 Prometheus_Firehose_Exporter를 전체 VM에 배포 할 필요 없이 Endpoint만을 사용하여 이전과 같은 전체 Metrics를 추출 가능 합니다.
 
 
-## 1. VM에서의 Prom_Scraper 구성 확인
+## 1. VM에서의 Prom_Scraper 구성 확인  
 
 ### 1.1. Jobs
 - Pivotal Platform의 모든 VM의 Metrics 방출 대상(metrics-agent, loggregator-agent, metrics-discovery-registrar) Job 아래에는 Prom_Scraper.config 파일이 존재합니다.
