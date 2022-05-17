@@ -7,7 +7,7 @@
 
 ```
 1. 모든 Locactor, Server Member가 떨어지지 않고 실행 중인 상태 인지 확인
-2. 각 Cacher Server에 대해 Memory 사용률이 50~65% 인지 확인
+2. 각 Cacher Server에 대해 Memory 사용률이 50~65% 인지 확인  
 3. 모든 Locactor, Server 각 각에 대해 재실행이 빈번하게 일어나는지 확인
 4. Region, Server에 대한 운영이 가능한 상태인지 확인 Gets/Puts/avg latency가 ms 단위
 5. JVM Palus와 Wait Thread는 나타 날 수 있지만 일시적인지 확인
