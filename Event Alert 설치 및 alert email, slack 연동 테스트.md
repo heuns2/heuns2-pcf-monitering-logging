@@ -25,7 +25,7 @@ $ cf eva-subscriptions
 Getting subscriptions as tasadmin...  
 OK
 Target         Publisher     Topics                                      Exclusions  
-email-User-1   healthwatch   healthwatch.diego.availablefreechunks       -
+email-User-1   healthwatch   healthwatch.diego.availablefreechunks       -  
 ~              ~             healthwatch.diego.availablefreechunksdisk   -
 slack-User-1   healthwatch   healthwatch.diego.availablefreechunks       -
 ~              ~             healthwatch.diego.availablefreechunksdisk   -  
