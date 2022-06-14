@@ -44,5 +44,5 @@ $ create region --name=test --enable-statistics=true
 [gfs-1]:./images/gfs-image-1.PNG
 [gfs-2]:./images/gfs-image-2.PNG
 [gfs-3]:./images/gfs-image-3.PNG
-[gfs-4]:./images/gfs-image-4.PNG
+[gfs-4]:./images/gfs-image-4.PNG  
 
