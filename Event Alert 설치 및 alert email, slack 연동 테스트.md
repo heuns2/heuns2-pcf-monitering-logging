@@ -6,7 +6,7 @@
 - Event Alert Tile의 SMTP Config 화면에서 Enable TLS: False로 설정하여 실행
 
 3) target 생성하고 leedh@gmail.com에서 알림 정책 확인을 클릭
-3-1) Email 얀동
+3-1) Email 얀동  
 $ cf eva-create-target email-User-1 email leedh@gmail.com
 3-2) Slack 연동
 $ cf eva-create-target slack-User-2 slack https://hooks.slack.com/services/TMA9G12TZ/B01KSGR
